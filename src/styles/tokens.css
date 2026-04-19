@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Brand — deep purple from Figma */
+  --color-primary: #3B1F6B;
+  --color-primary-dark: #2A1550;
+  --color-primary-light: #F0EBF8;
+  --color-primary-mid: #6B46C1;
+
+  /* CTA orange accent (Sign-in button) */
+  --color-cta: #E05E1A;
+  --color-cta-dark: #C04E10;
+
+  /* Surfaces */
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5F4F7;
+  --color-border: #E8E6ED;
+  --color-border-light: #F0EEF4;
+
+  /* Text */
+  --color-text-primary: #1A1025;
+  --color-text-secondary: #4A3F5C;
+  --color-text-muted: #8B7EA8;
+  --color-text-label: #6B5F80;
+
+  /* Status */
+  --color-status-open: #16A34A;
+  --color-status-open-bg: #F0FDF4;
+  --color-status-closed: #DC2626;
+  --color-status-closed-bg: #FEF2F2;
+  --color-status-limited: #D97706;
+  --color-status-limited-bg: #FFFBEB;
+  --color-status-unknown: #6B7280;
+  --color-status-unknown-bg: #F9FAFB;
+
+  /* Layout */
+  --topbar-height: 64px;
+  --filterbar-height: 52px;
+  --bottom-nav-height: 64px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(59, 31, 107, 0.08), 0 1px 2px rgba(59, 31, 107, 0.04);
+  --shadow-card-hover: 0 4px 12px rgba(59, 31, 107, 0.12);
+  --shadow-sheet: 0 -4px 20px rgba(59, 31, 107, 0.15);
+  --shadow-dropdown: 0 4px 16px rgba(59, 31, 107, 0.12);
+  --shadow-topbar: 0 1px 0 var(--color-border);
+
+  /* Border radius */
+  --radius-card: 12px;
+  --radius-chip: 8px;
+  --radius-btn: 8px;
+  --radius-pill: 999px;
+}
